@@ -46,7 +46,7 @@ This repo contains a full featured environment for setting up and testing HashiC
 * HashiCorp Consul Enterprise license required.
   * Place in `./license`
 * For the  `./k3d-config.sh` script to execute properly, you also need to - 
-  * Have a local version of Consul on the latest version
+  * Have a local version of Consul on the latest ENT version
   * Create a /tokens directory, CA and other files will be copied into this directory.
 * Generate Consul PKI Root certs and Consul Server RPC certs
   * Self-signed certificates have already been provided in this repo.
